@@ -1811,6 +1811,20 @@ List<List<Integer>> linjietu=new ArrayList<>();
         }
         return -1;
     }
+    public int findMin(int[] nums) {
+    int n=nums.length;
+    int left=0;
+    int right=n-1;
+    while(left<=right){
+        int mid=(left+right)/2;
+        if(nums[mid]<nums[right]){//说明mid到right这块是有序的
+            right=mid;
+        }else{
+            left=mid+1;
+        }
+    }
+        return nums[left];
+    }
     }
 
 
