@@ -1726,6 +1726,23 @@ List<List<Integer>> linjietu=new ArrayList<>();
             }
         }return left;
     }
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int row=matrix.length;
+        int col=matrix[0].length;
+        int left=0;
+        int right=row*col-1;
+        while(left<=right) {
+            int mid=((right-left)>>1)+left;
+            if(target>matrix[mid/col][mid%col]){
+                left=mid+1;
+            }else if(target<matrix[mid/col][mid%col]){
+                right=mid-1;
+            }
+            else {
+                return true;
+            }
+        }return false;
+    }
         }
 
 
