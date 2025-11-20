@@ -1825,6 +1825,29 @@ List<List<Integer>> linjietu=new ArrayList<>();
     }
         return nums[left];
     }
+    public boolean isValid(String s) {
+        Deque<Character> deque=new ArrayDeque<>();;
+        Map<Character,Character> map=new HashMap<Character,Character>(){{
+            put(')', '('); // 右括号 ')' 对应左括号 '('
+            put(']', '['); // 右括号 ']' 对应左括号 '['
+            put('}', '{'); // 右括号 '}' 对应左括号 '{'
+        }};
+        if(s.length()%2==1)return false;
+        for (int i = 0; i < s.length(); i++) {
+            char charCurr=s.charAt(i);
+            if(map.containsKey(charCurr)){
+                if(deque.isEmpty()||deque.peek()!=map.get(charCurr)){
+                    return false;
+                }
+                deque.pop();
+            }
+            else {
+                deque.push(charCurr);
+            }
+        }
+        return deque.isEmpty();
+
+    }
     }
 
 
