@@ -1848,6 +1848,91 @@ List<List<Integer>> linjietu=new ArrayList<>();
         return deque.isEmpty();
 
     }
+    public String decodeString(String s) {
+        Deque<Character> stack= new ArrayDeque<>();
+        for (char c: s.toCharArray()){
+            if(c!=']'){
+                stack.push(c);
+            }
+            else {
+                //遇见] 返回方框内的字母
+                StringBuffer sb=new StringBuffer();
+                while(!stack.isEmpty()&&Character.isLetter(stack.peek())){
+                    sb.insert(0,stack.pop());
+                }
+                String sub=sb.toString();//获取方框内的字母串
+                stack.pop();//弹出[
+
+                //获取数字
+                sb=new StringBuffer();
+                while(!stack.isEmpty()&&Character.isDigit(stack.peek())){
+                    sb.insert(0,stack.pop());
+                }
+                int count=Integer.valueOf(sb.toString());
+
+                while(count>0){
+                    for(char ch:sub.toCharArray()){
+                        stack.push(ch);
+
+                    }   count--;}
+            }
+        }
+        StringBuffer ans=new StringBuffer();
+        while (!stack.isEmpty()){ans.insert(0,stack.pop());}
+        return ans.toString();
+    }
+    public int[] dailyTemperatures(int[] temperatures) {
+        int length=temperatures.length;
+        int[] ans=new int[length];
+       Deque<Integer> stack=new ArrayDeque();
+        for (int i = 0; i < length; i++) {
+            int currT=temperatures[i];
+            while(!stack.isEmpty()&&currT>temperatures[stack.peek()]){
+                int preIndex=stack.pop();
+                ans[preIndex]=i-preIndex;
+            }
+            stack.push(i);
+        }return ans;
+    }
+        public int largestRectangleArea(int[] heights) {
+            int length=heights.length;
+            int[] left=new int[length];
+            int[] right=new int[length];
+            Deque<Integer> stack=new ArrayDeque<>();//存下标
+            //填充左边界
+            for (int i = 0; i < length; i++) {
+                while(!stack.isEmpty()&&heights[i]<=heights[stack.peek()]){
+                    stack.pop();
+                }
+                left[i]=(stack.isEmpty()?-1:stack.peek());
+                stack.push(i);
+            }
+            stack.clear();
+            for (int i = length-1; i >=0; i--) {
+                while(!stack.isEmpty()&&heights[i]<=heights[stack.peek()]){
+                    stack.pop();
+                }
+                right[i]=(stack.isEmpty()?length:stack.peek());
+                stack.push(i);
+            }
+            int ans=0;
+            for (int i = 0; i <length ; i++) {
+                int width=right[i]-left[i]-1;
+                int area=width*heights[i];
+                ans=Math.max(area,ans);
+            }
+            return ans;
+         }
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minHeap=new PriorityQueue<>();//小根堆
+        for (int num : nums) {
+            minHeap.offer(num);
+            if(minHeap.size()>k){//最后只留k个大的 在堆中 顶部（最小）的要抛弃
+                minHeap.poll();
+            }
+
+        }return minHeap.poll();
+    }
     }
 
 
