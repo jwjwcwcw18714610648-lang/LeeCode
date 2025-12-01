@@ -27,4 +27,13 @@ public class test {
         }
         return arr;
     }
+    @Test
+    public void test4() {
+        MedianFinder mf = new MedianFinder();
+        int[] seq = {5, 2, 3, 4, 1, 6};
+        for (int x : seq) {
+            mf.addNum(x);
+            System.out.println("插入 " + x + " 后中位数 = " + mf.findMedian());
+        }
+    }
 }
