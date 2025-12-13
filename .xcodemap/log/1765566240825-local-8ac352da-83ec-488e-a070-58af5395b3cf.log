@@ -1,0 +1,11 @@
+[2025-12-13 03:04:00.825] [WARN] [StateNegotiator] - [XCodeMap] Start the recorder...
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.826] [WARN] [StateNegotiator] - Start the recorder... [o.a.x.a.q]
+[2025-12-13 03:04:00.877] [WARN] [main] - [XCodeMap] 启动完成, cost 275 ms, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:04:01.093] [WARN] [Thread-0] - Graceful shutdown..., metrics totalClassNum:0	transClassNum:3	transLoadedNum:0	objectExtractNum:584	checkHashNum:432	objectTravelNum:5644	objectExtractErrorNum:0	diffObjectNum:0	totalFuncNum:0	transFuncNum:15	errorTransNum:0	instanceNum:0	totalFuncCallNum:426	storedFuncCallNum:401	totalObjectNum:537	conflictedObjectNum:0	totalObjectChangeNum:0	totalArrayChangeNum:6	totalPutFieldNum:2	totalSysSetNum:0	totalArrayCopyNum:0	totalColChangeNum:10	totalAtomicChangeNum:0	totalGetFieldNum:72	storedPutFieldNum:2	storedGetFieldNum:72	invokeMethodPosNum:0	putFieldPosNum:0	maxLocalsValue:0	maxStacksValue:0	stackNodeNum:0	transformTimeNano:0	 [o.a.x.a.x.X]
+[2025-12-13 03:04:01.430] [WARN] [XCodeMapRecordWriter] - write size 136199 [o.a.x.g.i.g]
+[2025-12-13 03:04:01.432] [WARN] [XCodeMapRecordFlusher] - flush size 136199 [o.a.x.g.i.g]
+[2025-12-13 03:04:01.434] [WARN] [Thread-0] - [XCodeMap] Stop the recorder...
+ [o.a.x.a.q]
+[2025-12-13 03:04:01.434] [WARN] [Thread-0] - Stop the recorder... [o.a.x.a.q]

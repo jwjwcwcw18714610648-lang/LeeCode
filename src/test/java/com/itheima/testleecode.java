@@ -2168,7 +2168,30 @@ public class testleecode {
             }
         }
     }
+    public int[] prePartitionLabels(String s){
+        int[] a=new int[26];
+        int n=s.length();
+        for (int i = 0; i < n; i++) {
+            a[s.charAt(i)-'a']=i;//确认每个字母出现的最后的位置
 
+        }
+        return a;
+    }
+    public List<Integer> partitionLabels(String s) {
+        List<Integer> ans=new ArrayList<>();
+        int[] a=prePartitionLabels(s);
+        int start=0;
+        int end=0;
+        for (int i = 0; i < s.length(); i++) {
+            end=Math.max(end,a[s.charAt(i)-'a']);//每次遍历到新的字母 都扩展end区域 使其成为最大的 即可确认结果
+            if(end==i){
+                ans.add(end-start+1);
+                start=end+1;//从下一个开始
+            }
+        }
+        return ans;
+
+    }
 }
 
 

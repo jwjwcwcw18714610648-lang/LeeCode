@@ -1,0 +1,11 @@
+[2025-12-13 03:05:02.637] [WARN] [main] - [XCodeMap] 开始启动, pid:25028, xcodemap.executionId:dacf1bde-e7a3-400e-9883-e1a90fbce3d5, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:05:02.639] [WARN] [main] - [XCodeMap] 官网：https://xcodemap.tech ，B 站视频教程：https://space.bilibili.com/3546573562710135
+ [o.a.x.a.q]
+[2025-12-13 03:05:02.640] [WARN] [main] - workDir:D:\Tools\leetcode\.xcodemap agentMain:false [o.a.x.a.q]
+[2025-12-13 03:05:02.747] [WARN] [main] - AsmSysChangeData 加载完成，共加载 58 个集合类，67 个系统设置方法，147 个集合变更方法 [o.a.x.a.x.X]
+[2025-12-13 03:05:02.760] [WARN] [XCodeMap-Install] - [XCodeMap] Install Agent, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:05:02.760] [WARN] [XCodeMap-Install] - Start retransformAllClasses [o.a.x.a.x.X]
+[2025-12-13 03:05:02.770] [WARN] [XCodeMap-Install] - ReTransform agentmain metrics  toBeReTransformedClasses:0 toBeReTransformedClassLoadedClasses:0 [o.a.x.a.x.X]
+[2025-12-13 03:05:02.773] [WARN] [XCodeMapPerfStats] - XCodeMapPerfStats resolveQueue:0 recordWriteQueue:0 writeBufferQueue:3 flushBufferQueue:0 [o.a.x.g.i.g]
