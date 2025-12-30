@@ -1,0 +1,18 @@
+[2025-12-13 03:04:00.662] [WARN] [main] - [XCodeMap] 开始启动, pid:36004, xcodemap.executionId:8ac352da-83ec-488e-a070-58af5395b3cf, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.663] [WARN] [main] - [XCodeMap] 官网：https://xcodemap.tech ，B 站视频教程：https://space.bilibili.com/3546573562710135
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.664] [WARN] [main] - workDir:D:\Tools\leetcode\.xcodemap agentMain:false [o.a.x.a.q]
+[2025-12-13 03:04:00.770] [WARN] [main] - AsmSysChangeData 加载完成，共加载 58 个集合类，67 个系统设置方法，147 个集合变更方法 [o.a.x.a.x.X]
+[2025-12-13 03:04:00.771] [WARN] [XCodeMap-Install] - [XCodeMap] Install Agent, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.771] [WARN] [XCodeMap-Install] - Start retransformAllClasses [o.a.x.a.x.X]
+[2025-12-13 03:04:00.777] [WARN] [XCodeMap-Install] - ReTransform agentmain metrics  toBeReTransformedClasses:0 toBeReTransformedClassLoadedClasses:0 [o.a.x.a.x.X]
+[2025-12-13 03:04:00.811] [WARN] [XCodeMap-Install] - [XCodeMap] ReTransform class num:0
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.811] [WARN] [XCodeMap-Install] - [XCodeMap] All 0 batches completed, total time: 0ms
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.811] [WARN] [XCodeMap-Install] - End retransformAllClasses, cost 40 ms [o.a.x.a.x.X]
+[2025-12-13 03:04:00.811] [WARN] [XCodeMap-Install] - [XCodeMap] Install Agent finished, cost 40 ms, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:04:00.825] [WARN] [XCodeMapPerfStats] - XCodeMapPerfStats resolveQueue:0 recordWriteQueue:0 writeBufferQueue:3 flushBufferQueue:0 [o.a.x.g.i.g]

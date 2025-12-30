@@ -1,0 +1,20 @@
+[2025-12-13 03:13:12.786] [WARN] [main] - [XCodeMap] 开始启动, pid:34200, xcodemap.executionId:43bc179f-f050-4d34-993b-d519538714c0, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:13:12.787] [WARN] [main] - [XCodeMap] 官网：https://xcodemap.tech ，B 站视频教程：https://space.bilibili.com/3546573562710135
+ [o.a.x.a.q]
+[2025-12-13 03:13:12.788] [WARN] [main] - workDir:D:\Tools\leetcode\.xcodemap agentMain:false [o.a.x.a.q]
+[2025-12-13 03:13:12.889] [WARN] [main] - AsmSysChangeData 加载完成，共加载 58 个集合类，67 个系统设置方法，147 个集合变更方法 [o.a.x.a.x.X]
+[2025-12-13 03:13:12.892] [WARN] [XCodeMap-Install] - [XCodeMap] Install Agent, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:13:12.892] [WARN] [XCodeMap-Install] - Start retransformAllClasses [o.a.x.a.x.X]
+[2025-12-13 03:13:12.900] [WARN] [XCodeMap-Install] - ReTransform agentmain metrics  toBeReTransformedClasses:0 toBeReTransformedClassLoadedClasses:0 [o.a.x.a.x.X]
+[2025-12-13 03:13:12.926] [WARN] [XCodeMap-Install] - [XCodeMap] ReTransform class num:0
+ [o.a.x.a.q]
+[2025-12-13 03:13:12.926] [WARN] [XCodeMap-Install] - [XCodeMap] All 0 batches completed, total time: 0ms
+ [o.a.x.a.q]
+[2025-12-13 03:13:12.926] [WARN] [XCodeMap-Install] - End retransformAllClasses, cost 34 ms [o.a.x.a.x.X]
+[2025-12-13 03:13:12.926] [WARN] [XCodeMap-Install] - [XCodeMap] Install Agent finished, cost 34 ms, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:13:12.999] [WARN] [main] - [XCodeMap] 启动完成, cost 257 ms, version:1.22.1
+ [o.a.x.a.q]
+[2025-12-13 03:13:13.108] [WARN] [Thread-0] - Graceful shutdown..., metrics totalClassNum:0	transClassNum:3	transLoadedNum:0	objectExtractNum:0	checkHashNum:0	objectTravelNum:0	objectExtractErrorNum:0	diffObjectNum:0	totalFuncNum:0	transFuncNum:15	errorTransNum:0	instanceNum:0	totalFuncCallNum:0	storedFuncCallNum:0	totalObjectNum:0	conflictedObjectNum:0	totalObjectChangeNum:0	totalArrayChangeNum:0	totalPutFieldNum:0	totalSysSetNum:0	totalArrayCopyNum:0	totalColChangeNum:0	totalAtomicChangeNum:0	totalGetFieldNum:0	storedPutFieldNum:0	storedGetFieldNum:0	invokeMethodPosNum:0	putFieldPosNum:0	maxLocalsValue:0	maxStacksValue:0	stackNodeNum:0	transformTimeNano:0	 [o.a.x.a.x.X]
